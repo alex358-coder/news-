@@ -716,8 +716,8 @@ function init() {
   fetchArticles(true);
 
   // Show banner if using mock data
-  if (CONFIG.USE_MOCK || CONFIG.API_KEY === 'YOUR_API_KEY') {
-    setTimeout(() => showToast('📌'), 1200);
+  if (CONFIG.USE_MOCK || CONFIG.API_KEY === 'cee13a8fdf96414d9d94b07f44706044 ') {
+    setTimeout(() => showToast(''), 1200);
   }
 }
 
