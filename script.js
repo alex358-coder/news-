@@ -717,7 +717,7 @@ function init() {
 
   // Show banner if using mock data
   if (CONFIG.USE_MOCK || CONFIG.API_KEY === 'YOUR_API_KEY') {
-    setTimeout(() => showToast('📌 Demo mode — add your NewsAPI key in script.js'), 1200);
+    setTimeout(() => showToast('📌'), 1200);
   }
 }
 
